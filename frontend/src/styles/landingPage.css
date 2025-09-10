@@ -1,0 +1,31 @@
+
+
+.get-started-container {
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+}
+
+.landing-page-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cover-image {
+  background-image: url('../assets/landing_page_image_3.png'); 
+  background-repeat: no-repeat;  
+  background-size: cover; 
+  background-position: center;
+}
+
+.get-started-btn-in-landing {
+  font-size: 3em;
+  font-weight: bold;
+  padding: .5rem 2rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+}
