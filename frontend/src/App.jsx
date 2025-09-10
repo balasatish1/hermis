@@ -1,11 +1,18 @@
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './pages/Home';
 
 function App() {
 
   return (
-    <>
-      <h1>Mahesh Alladi</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Header/>}>
+          <Route path='home' element={<Home/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
