@@ -1,10 +1,21 @@
 
 import { Outlet } from 'react-router-dom';
+import AppLogo from './AppLogo';
+import '../styles/header.css';
 
 export default function Header () {
   return (
     <>
-      <h1>This is header</h1>
+      <div className='header'>
+        <AppLogo/>
+        <div>
+          <button
+            className='get-started-btn'
+          >
+            Get started
+          </button>
+        </div>
+      </div>
       <Outlet/>
     </>
   );

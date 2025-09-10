@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
+  font-family: Poppins, sans-serif;
 }
 
 body {
-  font-family: Poppins, sans-serif;
+  height: 200vh;
 }
