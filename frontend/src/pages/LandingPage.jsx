@@ -9,7 +9,7 @@ export default function LandingPage () {
     <>
       <div className='get-started-container'>
         <div className='landing-page-content'>
-          <h1>Choose a Doctor or Specialty</h1>
+          <h1>Connect with doctors anytime, anywhere—no long travel, no delays, just accessible care.</h1>
           <button
             className='get-started-btn-in-landing'
             onClick={() => navigate('/home')}

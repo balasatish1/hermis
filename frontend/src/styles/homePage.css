@@ -1,5 +1,4 @@
  
 .home-container {
-  border: 1px solid black;
-  min-height: 200vh;
+  padding: 20px 40px;
 }
