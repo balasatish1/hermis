@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import LandingPage from './pages/LandingPage';
 import BookAppointmentPage from './pages/BookAppointmentPage';
+import DoctorDashboard from './pages/DoctorDashboard';
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<LandingPage />}/>
           <Route path='home' element={<Home />}/>
           <Route path='book-appointment' element={<BookAppointmentPage />}/>
+          <Route path='doctor-dashboard' element={<DoctorDashboard/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

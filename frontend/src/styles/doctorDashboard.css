@@ -1,0 +1,63 @@
+
+
+.doctor-dashboard-container {
+  padding: 10px 30px;
+}
+
+.virtual-appointments-btn {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+.mode-of-consultancy {
+  padding: 5px 0;
+}
+
+.patient-box {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 2fr 3fr 3fr 3fr;
+  grid-auto-flow: column;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 1px 1px 5px gray;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.patient-box:hover {
+  box-shadow: 1px 1px 10px black;
+  background-color: white;
+  .join-call-btn {
+    background-color: green;
+    color: white;
+  }
+
+}
+.patient-box-header p {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.view-patient-details-btn, .join-call-btn {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.view-patient-details-btn {
+  background-color: gray;
+  color: white;
+}
+
+.join-call-btn {
+
+  font-weight: 500;
+}
+
+
