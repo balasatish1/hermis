@@ -1,6 +1,6 @@
 .header {
   margin-top: 10px;
-  padding: 10px 40px;
+  padding: 10px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,6 +41,6 @@
 }
 
 .login-type-drop-down li:hover {
-  background-color: rgba(0, 162, 255, 0.5);
+  background-color: rgb(39, 176, 255);
   color: white;
 }
