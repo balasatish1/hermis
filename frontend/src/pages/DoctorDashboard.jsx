@@ -26,6 +26,11 @@ export default function DoctorDashboard() {
           >
             Virtual appointments
           </button>
+           <button
+            className='physical-appointments-btn'
+          >
+            Physical appointments
+          </button>
         </div>
 
         <div className='patient-list-container'>
