@@ -4,7 +4,8 @@ export default function AppLogo() {
   const navigate = useNavigate();
   return (
     <h1
-     onClick={() => navigate('/')}
+     className='app-logo-name'
+     onClick={() => navigate('/home')}
     >
       Hermis
     </h1>

@@ -8,12 +8,39 @@
   top: 5px;
   box-shadow: 0 0 10px gray;
   background-color: white;
+
 }
 
-.get-started-btn {
-  background-color: black;
-  color: white;
+.app-logo-name {
+  font-size: 40px;
+}
+
+.login-as-btn {
+  background-color: white;
   border: 1px solid gray;
-  padding: 5px 10px;
+  font-size: 1em;
+  padding: .4rem 3rem;
   border-radius: 5px;
+}
+
+.login-btn-container {
+  position: relative;
+}
+
+.login-type-drop-down {
+  border: 1px solid gray;
+  position: absolute;
+  top: 110%;
+}
+
+.login-type-drop-down li {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: .4rem 2.5rem;
+
+}
+
+.login-type-drop-down li:hover {
+  background-color: rgba(0, 162, 255, 0.5);
+  color: white;
 }
