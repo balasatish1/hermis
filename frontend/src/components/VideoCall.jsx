@@ -1,6 +1,6 @@
 import '../styles/videoCall.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHourglass1, faMicrophone, faMicrophoneSlash, faPhone, faVideo, faVideoSlash } from "@fortawesome/free-solid-svg-icons";
+import { faMicrophone, faMicrophoneSlash, faPhone, faVideo, faVideoSlash } from "@fortawesome/free-solid-svg-icons";
 import { useState } from 'react';
 
 export default function VideoCallPage() {
