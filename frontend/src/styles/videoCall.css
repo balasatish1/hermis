@@ -1,17 +1,20 @@
 .conference-container {
-  padding: 10px 30px;
+  padding: 30px;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 10px;
-  height: 80vh;
+  gap: 20px;
+  height: 75vh;
 }
 
 .video-call-screen, .prescription-container {
   border: 1px solid gray;
-  padding: 10px;
+  border-radius: 5px;
+  padding: 5px;
+
 }
 
 .video-call-screen {
+  padding: 10px;
   background-image: url("../assets/patient_image.jpg");
   background-size: cover;
   background-position: center;
@@ -19,13 +22,60 @@
   display: flex;
   align-items: end;
   justify-content: center;
+  position: relative;
 }
 
-.end-call-btn {
-  padding: 10px;
-  background-color: red;
-  border-radius: 50%;
+.video-call-gestures {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.video-call-gestures div {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+#end-call-btn {
+  background-color: red;
+}
+
+.incoming-person-video-preview {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 40%;
+  background-image: url('../assets/doctor_image_2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
 
 .prescription-container {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 5fr .5fr;
+  gap: 20px;
+}
+.add-medicine-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.medicine-input {
+  width: 70%;
+}
+
+.add-medicine-btn {
+  border: 1px solid gray;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
 }
