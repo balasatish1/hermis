@@ -10,6 +10,8 @@ import DoctorConference from './pages/DoctorConference';
 import { createContext } from 'react';
 import { useState, useEffect } from 'react';
 import PatientDashboard from './pages/PatientDashboard';
+import Pharmacy from './pages/Pharmacy'; 
+import CheckForMedicines from './pages/CheckForMedicines';
 
 let GlobalDataContext = createContext();
 
@@ -40,6 +42,8 @@ export default function App() {
             <Route path='doctor-conference' element={<DoctorConference />} />
             <Route path='patient-conference' element={<PatientConference />} />
             <Route path='patient-dashboard' element= {<PatientDashboard/>}/>
+            <Route path='pharmacy' element={<Pharmacy/>}/>
+            <Route path='check-for-medicines' element={<CheckForMedicines />}/>
           </Route>
         </Routes>
       </BrowserRouter>

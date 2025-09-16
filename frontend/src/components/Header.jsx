@@ -36,7 +36,12 @@ export default function Header() {
                     setLoginTypeVisiblity(prev => !prev)
                   }}
                 ><a>Doctor</a></li>
-                <li><a>Pharmacy</a></li>
+                <li
+                  onClick={() => {
+                    navigate('/pharmacy')
+                    setLoginTypeVisiblity(prev => !prev)
+                  }}
+                ><a>Pharmacy</a></li>
               </div>
             )
           }

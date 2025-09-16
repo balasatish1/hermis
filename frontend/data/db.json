@@ -10,7 +10,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Morning",
       "health_record": null,
-      "appointment_time": "10:00 AM 17/09"
+      "appointment_time": "10:00 AM 17/09",
+      "id": "e2bb"
     },
     {
       "full_name": "Priya Sharma",
@@ -22,7 +23,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Afternoon",
       "health_record": "records_priya.pdf",
-      "appointment_time": "10:20 AM 17/09"
+      "appointment_time": "10:20 AM 17/09",
+      "id": "72ce"
     },
     {
       "full_name": "Amit Patel",
@@ -34,7 +36,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Evening",
       "health_record": null,
-      "appointment_time": "10:40 AM 17/09"
+      "appointment_time": "10:40 AM 17/09",
+      "id": "26aa"
     },
     {
       "full_name": "Sara Khan",
@@ -46,7 +49,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Morning",
       "health_record": null,
-      "appointment_time": "11:00 AM 17/09"
+      "appointment_time": "11:00 AM 17/09",
+      "id": "acc4"
     },
     {
       "full_name": "Rohit Verma",
@@ -58,7 +62,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Afternoon",
       "health_record": "rohit_report.pdf",
-      "appointment_time": "11:20 AM 17/09"
+      "appointment_time": "11:20 AM 17/09",
+      "id": "83f0"
     },
     {
       "full_name": "Emily Davis",
@@ -70,7 +75,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Morning",
       "health_record": null,
-      "appointment_time": "11:40 AM 17/09"
+      "appointment_time": "11:40 AM 17/09",
+      "id": "5a8c"
     },
     {
       "full_name": "Karan Mehta",
@@ -82,7 +88,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Evening",
       "health_record": null,
-      "appointment_time": "12:00 PM 17/09"
+      "appointment_time": "12:00 PM 17/09",
+      "id": "7cf7"
     },
     {
       "full_name": "Neha Gupta",
@@ -94,7 +101,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Morning",
       "health_record": "neha_eye.pdf",
-      "appointment_time": "12:20 PM 17/09"
+      "appointment_time": "12:20 PM 17/09",
+      "id": "cadb"
     },
     {
       "full_name": "David Johnson",
@@ -106,7 +114,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Afternoon",
       "health_record": null,
-      "appointment_time": "12:40 PM 17/09"
+      "appointment_time": "12:40 PM 17/09",
+      "id": "69bd"
     },
     {
       "full_name": "Meera Iyer",
@@ -118,7 +127,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Evening",
       "health_record": null,
-      "appointment_time": "01:00 PM 17/09"
+      "appointment_time": "01:00 PM 17/09",
+      "id": "ffa7"
     },
     {
       "full_name": "Arjun Nair",
@@ -130,7 +140,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Morning",
       "health_record": null,
-      "appointment_time": "10:00 AM 18/09"
+      "appointment_time": "10:00 AM 18/09",
+      "id": "1287"
     },
     {
       "full_name": "Sophia Wilson",
@@ -142,7 +153,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Afternoon",
       "health_record": "sophia_records.pdf",
-      "appointment_time": "10:20 AM 18/09"
+      "appointment_time": "10:20 AM 18/09",
+      "id": "6099"
     },
     {
       "full_name": "Vikram Singh",
@@ -154,7 +166,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Evening",
       "health_record": null,
-      "appointment_time": "10:40 AM 18/09"
+      "appointment_time": "10:40 AM 18/09",
+      "id": "ee96"
     },
     {
       "full_name": "Anjali Desai",
@@ -166,7 +179,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Morning",
       "health_record": null,
-      "appointment_time": "11:00 AM 18/09"
+      "appointment_time": "11:00 AM 18/09",
+      "id": "7e11"
     },
     {
       "full_name": "Chris Martin",
@@ -178,7 +192,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Afternoon",
       "health_record": "chris_bp.pdf",
-      "appointment_time": "11:20 AM 18/09"
+      "appointment_time": "11:20 AM 18/09",
+      "id": "6501"
     },
     {
       "full_name": "Riya Kapoor",
@@ -190,7 +205,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Morning",
       "health_record": null,
-      "appointment_time": "11:40 AM 18/09"
+      "appointment_time": "11:40 AM 18/09",
+      "id": "2ffb"
     },
     {
       "full_name": "George Brown",
@@ -202,7 +218,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Evening",
       "health_record": null,
-      "appointment_time": "12:00 PM 18/09"
+      "appointment_time": "12:00 PM 18/09",
+      "id": "b6c1"
     },
     {
       "full_name": "Shreya Reddy",
@@ -214,7 +231,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Afternoon",
       "health_record": null,
-      "appointment_time": "12:20 PM 18/09"
+      "appointment_time": "12:20 PM 18/09",
+      "id": "3288"
     },
     {
       "full_name": "Mohammed Ali",
@@ -226,7 +244,8 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Morning",
       "health_record": "ali_lungs.pdf",
-      "appointment_time": "12:40 PM 18/09"
+      "appointment_time": "12:40 PM 18/09",
+      "id": "8f09"
     },
     {
       "full_name": "Olivia Thomas",
@@ -238,7 +257,115 @@
       "doctor_type": "General Physician",
       "preferred_time_slot": "Evening",
       "health_record": null,
-      "appointment_time": "01:00 PM 18/09"
+      "appointment_time": "01:00 PM 18/09",
+      "id": "fecb"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "1",
+      "name": "Paracetamol",
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Ibuprofen",
+      "available": false
+    },
+    {
+      "id": "3",
+      "name": "Amoxicillin",
+      "available": true
+    },
+    {
+      "id": "4",
+      "name": "Ciprofloxacin",
+      "available": true
+    },
+    {
+      "id": "5",
+      "name": "Azithromycin",
+      "available": false
+    },
+    {
+      "id": "6",
+      "name": "Metformin",
+      "available": true
+    },
+    {
+      "id": "7",
+      "name": "Amlodipine",
+      "available": true
+    },
+    {
+      "id": "8",
+      "name": "Losartan",
+      "available": false
+    },
+    {
+      "id": "9",
+      "name": "Omeprazole",
+      "available": true
+    },
+    {
+      "id": "10",
+      "name": "Pantoprazole",
+      "available": true
+    },
+    {
+      "id": "11",
+      "name": "Cetirizine",
+      "available": true
+    },
+    {
+      "id": "12",
+      "name": "Montelukast",
+      "available": false
+    },
+    {
+      "id": "13",
+      "name": "Levothyroxine",
+      "available": true
+    },
+    {
+      "id": "14",
+      "name": "Atorvastatin",
+      "available": true
+    },
+    {
+      "id": "15",
+      "name": "Simvastatin",
+      "available": false
+    },
+    {
+      "id": "16",
+      "name": "Diclofenac",
+      "available": true
+    },
+    {
+      "id": "17",
+      "name": "Naproxen",
+      "available": false
+    },
+    {
+      "id": "18",
+      "name": "Clopidogrel",
+      "available": true
+    },
+    {
+      "id": "19",
+      "name": "Warfarin",
+      "available": false
+    },
+    {
+      "id": "20",
+      "name": "Insulin",
+      "available": true
+    },
+    {
+      "id": "0a88",
+      "name": "dolo",
+      "available": true
     }
   ]
 }
