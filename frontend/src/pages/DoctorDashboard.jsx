@@ -1,8 +1,12 @@
 import { useEffect, useState } from 'react';
 import '../styles/doctorDashboard.css';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+
 
 export default function DoctorDashboard() {
+
+  const navigate = useNavigate();
 
   const [patientsData, setPatientsData] = useState([]);
 
@@ -56,8 +60,16 @@ export default function DoctorDashboard() {
                   <p>{patient.gender}</p>
                   <p>{patient.appointment_time}</p>
 
-                  <button className='view-patient-details-btn'>View details</button>
-                  <button className='join-call-btn'>Join call</button>
+                  <button className='view-patient-details-btn'>
+                    View details
+                  </button>
+
+                  <button
+                    onClick={() => navigate('/doctor-conference')}
+                    className='join-call-btn'
+                  >
+                    Join call
+                  </button>
                 </div>
               )
             })

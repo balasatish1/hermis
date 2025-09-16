@@ -58,7 +58,7 @@
 
 
 .prescription-container {
-  padding: 20px;
+  padding: 15px;
   display: grid;
   grid-template-rows: 5fr .5fr;
   gap: 20px;
@@ -78,4 +78,18 @@
   background-color: white;
   padding: 10px 30px;
   border-radius: 5px;
+}
+
+.medicine {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.download-prescription-btn {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 18px;
 }

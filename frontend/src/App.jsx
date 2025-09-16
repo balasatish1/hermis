@@ -7,23 +7,43 @@ import BookAppointmentPage from './pages/BookAppointmentPage';
 import DoctorDashboard from './pages/DoctorDashboard';
 import PatientConference from './pages/PatientConference';
 import DoctorConference from './pages/DoctorConference';
+import { createContext } from 'react';
+import { useState, useEffect } from 'react';
 
-function App() {
+let GlobalDataContext = createContext();
+
+export default function App() {
+
+  const [loginType, setLoginType] = useState('');
+  const [videoCallPov, setVideoCallPov] = useState(''); 
+
+  const[medicineList, setMedicineList] = useState(() => {
+    const saved = localStorage.getItem("medicineList");
+    return saved ? JSON.parse(saved) : [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("medicineList", JSON.stringify(medicineList));
+  }, [medicineList]);
+
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Header />}>
-          <Route index element={<LandingPage />}/>
-          <Route path='home' element={<Home />}/>
-          <Route path='book-appointment' element={<BookAppointmentPage />}/>
-          <Route path='doctor-dashboard' element={<DoctorDashboard/>}/>
-          <Route path='doctor-conference' element={<DoctorConference/>}/>
-          <Route path='patient-conference' element={<PatientConference/>}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <GlobalDataContext.Provider value={{ loginType, setLoginType, videoCallPov, setVideoCallPov, medicineList, setMedicineList }}>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Header />}>
+            <Route index element={<LandingPage />} />
+            <Route path='home' element={<Home />} />
+            <Route path='book-appointment' element={<BookAppointmentPage />} />
+            <Route path='doctor-dashboard' element={<DoctorDashboard />} />
+            <Route path='doctor-conference' element={<DoctorConference />} />
+            <Route path='patient-conference' element={<PatientConference />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </ GlobalDataContext.Provider>
+
   )
 }
 
-export default App
+export { GlobalDataContext };
