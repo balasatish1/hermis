@@ -1,4 +1,15 @@
  
 .home-container {
   padding: 20px 40px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.home-container button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding:  1rem 2rem;
+  font-size: 1.5em;
+  background-color: white;
 }

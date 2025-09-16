@@ -13,7 +13,6 @@ export default function DoctorDashboard() {
   useEffect(() => {
     const getPatientsData = async () => {
       const data = await axios.get('http://localhost:3500/patientsData');
-      console.log(data.data);
       setPatientsData(data.data);
     };
 

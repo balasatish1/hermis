@@ -21,6 +21,8 @@ export default function VideoCallPage({ primaryImage, secondaryImage, inputVisib
     if (!isMedicineAlreadyExist) {
       setMedicineList(prev => [...prev, currentMedicine]);
     }
+    
+    setCurrentMedicine('');
   }
 
   const handleVideoClick = () => setVideoVisibility(prev => !prev);

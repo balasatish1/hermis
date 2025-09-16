@@ -1,0 +1,50 @@
+.patient-dashboard {
+  padding: 30px;
+}
+
+
+
+
+.appointment, .appointment-header {
+  display: grid;
+  grid-template-columns: repeat(1fr, 4);
+  grid-auto-flow: column;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 1px 1px 5px gray;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.appointment-header p {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.appointment-header {
+   position: sticky;
+  top: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(155, 218, 255)
+}
+
+ .join-call-btn {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.appointment:hover {
+  box-shadow: 1px 1px 10px black;
+  .join-call-btn {
+    background-color: green;
+    color: white;
+  }
+
+}
