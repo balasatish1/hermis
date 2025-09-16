@@ -372,5 +372,117 @@
       "name": "mahesh",
       "available": true
     }
+  ],
+  "diseases": [
+    {
+      "name": "Common Cold",
+      "symptoms": [
+        "cough",
+        "sneezing",
+        "runny nose",
+        "sore throat"
+      ],
+      "medicines": [
+        "Paracetamol",
+        "Vitamin C",
+        "Cough Syrup"
+      ],
+      "natural": [
+        "Honey tea",
+        "Steam inhalation",
+        "Ginger tea"
+      ]
+    },
+    {
+      "name": "Flu",
+      "symptoms": [
+        "fever",
+        "chills",
+        "body ache",
+        "cough",
+        "fatigue"
+      ],
+      "medicines": [
+        "Oseltamivir",
+        "Paracetamol",
+        "Ibuprofen"
+      ],
+      "natural": [
+        "Rest",
+        "Warm fluids",
+        "Hydration"
+      ]
+    },
+    {
+      "name": "Migraine",
+      "symptoms": [
+        "headache",
+        "nausea",
+        "sensitivity to light",
+        "blurred vision"
+      ],
+      "medicines": [
+        "Ibuprofen",
+        "Acetaminophen"
+      ],
+      "natural": [
+        "Dark quiet room",
+        "Hydration",
+        "Cold compress"
+      ]
+    },
+    {
+      "name": "Stomach Infection",
+      "symptoms": [
+        "diarrhea",
+        "vomiting",
+        "abdominal pain",
+        "fever"
+      ],
+      "medicines": [
+        "Oral Rehydration Salts",
+        "Antibiotics"
+      ],
+      "natural": [
+        "Hydration",
+        "BRAT diet (Banana, Rice, Apple, Toast)"
+      ]
+    },
+    {
+      "name": "Allergy",
+      "symptoms": [
+        "sneezing",
+        "runny nose",
+        "itchy eyes",
+        "rash"
+      ],
+      "medicines": [
+        "Antihistamines",
+        "Eye drops"
+      ],
+      "natural": [
+        "Avoid allergens",
+        "Saline nasal rinse"
+      ]
+    }
+  ],
+  "symptomOptions": [
+    "cough",
+    "sneezing",
+    "runny nose",
+    "sore throat",
+    "fever",
+    "chills",
+    "body ache",
+    "fatigue",
+    "headache",
+    "nausea",
+    "sensitivity to light",
+    "blurred vision",
+    "diarrhea",
+    "vomiting",
+    "abdominal pain",
+    "itchy eyes",
+    "rash"
   ]
 }

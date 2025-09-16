@@ -10,17 +10,18 @@ import DoctorConference from './pages/DoctorConference';
 import { createContext } from 'react';
 import { useState, useEffect } from 'react';
 import PatientDashboard from './pages/PatientDashboard';
-import Pharmacy from './pages/Pharmacy'; 
+import Pharmacy from './pages/Pharmacy';
 import CheckForMedicines from './pages/CheckForMedicines';
+import SymptomChatbot from './pages/SymptomChatbot';
 
 let GlobalDataContext = createContext();
 
 export default function App() {
 
   const [loginType, setLoginType] = useState('');
-  const [videoCallPov, setVideoCallPov] = useState(''); 
+  const [videoCallPov, setVideoCallPov] = useState('');
 
-  const[medicineList, setMedicineList] = useState(() => {
+  const [medicineList, setMedicineList] = useState(() => {
     const saved = localStorage.getItem("medicineList");
     return saved ? JSON.parse(saved) : [];
   });
@@ -41,9 +42,10 @@ export default function App() {
             <Route path='doctor-dashboard' element={<DoctorDashboard />} />
             <Route path='doctor-conference' element={<DoctorConference />} />
             <Route path='patient-conference' element={<PatientConference />} />
-            <Route path='patient-dashboard' element= {<PatientDashboard/>}/>
-            <Route path='pharmacy' element={<Pharmacy/>}/>
-            <Route path='check-for-medicines' element={<CheckForMedicines />}/>
+            <Route path='patient-dashboard' element={<PatientDashboard />} />
+            <Route path='pharmacy' element={<Pharmacy />} />
+            <Route path='check-for-medicines' element={<CheckForMedicines />} />
+            <Route path='symptom-chatbot' element={<SymptomChatbot />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -2,21 +2,12 @@
 
 import '../styles/homePage.css';
 import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
 
-import { useContext } from "react";
-import { GlobalDataContext } from "../App";
 
 
 export default function Home() {
 
   const navigate = useNavigate();
-  // const { setMedicineList } = useContext(GlobalDataContext);
-
-  // useEffect(() =>  {
-  //   localStorage.removeItem("medicineList");
-  //   setMedicineList([]);
-  // }, []);
 
   return (
     <>
@@ -24,15 +15,25 @@ export default function Home() {
 
         <button
           onClick={() => navigate('/book-appointment')}
-          className='book-an-appointment-btn'
         >
           Book an appointment
         </button>
         <button
           onClick={() => navigate('/patient-dashboard')}
-          className='my-appointment-list-btn'
         >
           My appointments
+        </button>
+
+        <button
+          onClick={() => navigate('/symptom-chatbot')}
+        >
+          Chat with medibot
+        </button>
+
+        <button
+          onClick={() => navigate('/check-for-medicines')}
+        >
+          check medicine availability
         </button>
       </div>
     </>
