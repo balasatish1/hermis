@@ -31,10 +31,13 @@ export default function PatientDashboard() {
                   <p>{appointment.doctorName}</p>
                   <p>{appointment.timeAndDate}</p>
                   <button
-                    onClick={() => navigate('/patient-conference')}
+                    onClick={() => {
+                      localStorage.removeItem("medicineList");
+                      navigate('/patient-conference');
+                    }}
                     className='join-call-btn'
                   >
-                    
+
                     Join call
                   </button>
                 </div>

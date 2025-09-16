@@ -1,7 +1,9 @@
 
+import { useNavigate } from 'react-router-dom';
 import '../styles/bookAppointment.css';
 
 export default function BookAppointmentPage() {
+  const navigate = useNavigate();
   return (
     <>
       <div
@@ -131,6 +133,7 @@ export default function BookAppointmentPage() {
             <button
             type='reset'
             className='book-appointment-slot-btn'
+            onClick={() => navigate('/patient-dashboard')}
           >
             book appointment slot
           </button>

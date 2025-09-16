@@ -29,7 +29,7 @@ export default function DoctorDashboard() {
           >
             Virtual appointments
           </button>
-           <button
+          <button
             className='physical-appointments-btn'
           >
             Physical appointments
@@ -64,7 +64,10 @@ export default function DoctorDashboard() {
                   </button>
 
                   <button
-                    onClick={() => navigate('/doctor-conference')}
+                    onClick={() => {
+                      localStorage.removeItem("medicineList");
+                      navigate('/doctor-conference');
+                    }}
                     className='join-call-btn'
                   >
                     Join call

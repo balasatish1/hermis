@@ -10,13 +10,13 @@ import { GlobalDataContext } from "../App";
 
 export default function Home() {
 
-  const { setMedicineList } = useContext(GlobalDataContext);
-
   const navigate = useNavigate();
-  useEffect(() =>  {
-    localStorage.removeItem("medicineList");
-    setMedicineList([]);
-  }, []);
+  // const { setMedicineList } = useContext(GlobalDataContext);
+
+  // useEffect(() =>  {
+  //   localStorage.removeItem("medicineList");
+  //   setMedicineList([]);
+  // }, []);
 
   return (
     <>
